@@ -1,0 +1,7 @@
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\obj\Debug\MultiEndPointWCF.csprojResolveAssemblyReference.cache
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\bin\MultiEndPointWCF.dll
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\bin\MultiEndPointWCF.pdb
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\bin\Repository.dll
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\bin\Repository.pdb
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\obj\Debug\MultiEndPointWCF.dll
+C:\MyReferences\CodeCurry\MultiEndPointWCF\MultiEndPointWCF\obj\Debug\MultiEndPointWCF.pdb

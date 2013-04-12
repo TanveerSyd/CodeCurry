@@ -1,0 +1,46 @@
+
+DIV
+{
+    border: 1px solid Bisque;
+}
+#TopLeft
+{    
+    background-color :AliceBlue;
+    float:left ;
+}
+#TopRight
+{    
+    background-color :Chartreuse;
+    float:right ;
+}
+
+
+.Top
+{
+    text-align :center;
+    height: 10%;
+    position: relative;
+}
+    
+.LeftBar
+{
+    float :left;
+    height:90%;
+    width:10%;
+}
+.RightBar
+{
+    float :right;
+    height:90%;
+    width:10%;
+}
+.Child
+{
+    height:33%;
+}
+.MenuBar
+{
+    bottom:0px; /*so the  parent div (.Top) had to have relative position for this to work*/
+    position:absolute;
+    width:100%;   
+}
