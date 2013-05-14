@@ -44,7 +44,7 @@
       </div>
     </div>
       <div>
-        <input type="button" value="Click"  onclick="Press();"/>
+        <input type="button" value="Click"  onclick="Press1();"/>
            <input type="button" value="Prototyping"  onclick="PressOn();"/>
 
     </div>
@@ -82,13 +82,13 @@
         }
 
         function ShowData() {
-            alert(m_City);
+           // alert(m_City);
         }
     }
 
-    function DisplayAge() {
+    /* function DisplayAge() {
         alert(this.Age);
-    }
+    }*/
 
     var Ron = new Man();
    // Ron.Gender = 'Male';
@@ -99,20 +99,21 @@
        // Ron.SetData('Sydney');
         Ron.ShowGender();
         //Ron.ShowData();
-        alert(ani.type);
+        //alert(ani.type);
        
     }
 </script>
     <script type="text/javascript">
         function Mammal() {
             this.Name = "M";
-            this.Draw = ShowName();
+            this.Draw = ShowName;
+            this.SetName = AssignName;
             
             function ShowName() {
-                alert(this.Name);
+               alert(this.Name);
             }
 
-            function SetName(name) {
+            function AssignName(name) {
                 this.Name = name;
             }
         }
@@ -127,12 +128,16 @@
 
        
         function Press1() {
+
             var moty = new Cow();
             moty.SetName("Testo");
+            moty.Draw();
 
-            var x = new Mammal();
-            
-            x.Draw();
+            //var x = new Mammal();
+            //x.SetName("doggy");
+            //x.Draw();
+
+        
 
            
 
