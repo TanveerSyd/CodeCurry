@@ -97,7 +97,7 @@
         //alert(Ron.Gender);
         //Ron.ShowAge();
        // Ron.SetData('Sydney');
-       // Ron.ShowGender();
+        Ron.ShowGender();
         //Ron.ShowData();
         alert(ani.type);
        
@@ -105,20 +105,38 @@
 </script>
     <script type="text/javascript">
         function Mammal() {
-            this.Name = "";
-            this.Draw = ShowNam();
-
+            this.Name = "M";
+            this.Draw = ShowName();
+            
             function ShowName() {
                 alert(this.Name);
+            }
+
+            function SetName(name) {
+                this.Name = name;
             }
         }
         
         function Cow() {
-            this.Name = '';
-            this.Class = 'Domestic';
+            Mammal.call(this);
+            this.legs = 4;
         }
 
+        Cow.prototype = new Mammal();
+        Cow.prototype.constructor = Cow;
 
+       
+        function Press1() {
+            var moty = new Cow();
+            moty.SetName("Testo");
+
+            var x = new Mammal();
+            
+            x.Draw();
+
+           
+
+        }
     </script>
     
 </html>
